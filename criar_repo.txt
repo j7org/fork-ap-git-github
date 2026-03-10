@@ -1,0 +1,6 @@
+####	CRIAR REPOSITÓRIO GITHUB
+
+1. new repository
+2. git remote add origin <link repo>
+3. git push -u origin <nome branch>
+4. usar login ou token para check
