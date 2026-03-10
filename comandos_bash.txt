@@ -1,0 +1,67 @@
+###	FLUXO DE TRABALHO
+
+1. criar um diretório do projeto
+2. iniciar o git dentro do diretório(git init .)
+3. edita ou cria arquivos
+4. git status
+5. git add <nome arquivo>
+6. git status
+7. git commit -m "msg"
+8. git status.
+9. volta para o passo 3.
+
+-----------------------------------------
+
+###	COMANDOS BÁSICOS
+
+ls --> lista o que existe no diretório
+
+cd --> muda o diretório de onde estou
+
+pwd --> mostra do diretório(endereço) de onde estou.
+
+ls -a --> mostra arquivos ocultos
+
+mkdir --> criar uma pasta
+
+rm --> remove arquivo ou diretório
+
+rm -rf --> remove de forma recursiva e forçada todos os diretórios
+
+cat --> mostra conteúdo do arquivo
+
+
+-----------------------------------------
+
+
+###	COMANDOS GIT
+
+nano <nome arquivo> --> cria um editor de texto
+
+git branch --> mostra as branches do projeto
+
+git init . --> cria um repositório GIT na pasta atual
+
+git status --> mostra o status do trabalho
+
+git add --> adiciona arquivo para commit
+git add . --> adiciona mais de 1 arquivo para commit na diretório atual
+git add * --> commita tudo do diretório
+
+git commit -m "msg" --> faz commit do arquivo(save)
+
+git config --global user.email "meu email" 
+git config --global user.nome "meu nome"--> assino o commit
+
+git reset <nome arquivo>
+git restore -staged <nome arquivo> --> remove arquivo para commit(apenas UM)
+
+git log --> mostra o histórico de commits
+
+git diff --> mostra a diferença de alteração do arquivo
+git diff . --> mostra a diferença para todos os arquivos do diretório
+
+git checkout -b <nome> --> cria uma nova branch
+git checkout <nome branch> --> vou pra essa branch
+
+git merge <nome branch> --> trago as alterações para a branch main
